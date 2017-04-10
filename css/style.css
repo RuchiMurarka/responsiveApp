@@ -1,0 +1,257 @@
+body{
+    font-family:gill-sans;
+    font-size: 14px;
+    
+}
+.brandLogo{
+font-size: 14px;
+}
+.mailLink{
+    color:blue !important;
+}
+.container-fluid, .navbar-header, .navbar-brand{
+    width: 100%;
+}
+
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  top: 51px;
+  left: 250px;
+  width: 250px;
+  background: #383838 ;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-content-wrapper {
+  width: 100%;
+  padding-top: 70px;
+  height: 100%;
+background: #F0F0F0;
+  transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  line-height: 30px;
+  text-indent: 12px;
+}
+
+.sidebar-nav li a {
+  color: #D8D8D8;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #D8D8D8;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active {
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+background: rgba(255,255,255,0.2);
+    color: #fff;
+}
+
+/*.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}*/
+
+/*.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}*/
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+#menu-toggle {
+    text-decoration: none;
+    float: left;
+    padding-right: 15px;
+    color:#111;
+}
+
+
+.Tab1 {
+  background-color: white;
+
+}
+
+.Tab1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.detailPage{
+    margin: 0px 48px 0px 58px;
+    background-color: white;
+}
+
+@media (max-width:767px) {
+
+body{
+        -webkit-overflow-scrolling: touch;
+    }
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 25px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 35px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+
+    
+.detailPage{
+    margin: 0px 15px 0px 15px;
+    background-color: white;
+}
+    
+/*.img-center {
+    margin:0 auto;
+    }*/
+    
+.scrollTable{
+    overflow-x: scroll;
+}
+
+}
+
+.imageProp img{
+    width: 20px;
+    height: 20px;
+}
+
+.imageSocial img{
+    width: 30px;
+    height: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*#legislators, #bills{
+    display: none;
+}*/
+
+.capitalize {
+   text-transform: capitalize;
+}
+
+.starIcon a span, .deleteIcon a span, .chevronIcon a span,.starIcon2 a span {
+border: 1px solid lightgray;
+    
+    padding: 6px 8px 6px 8px;
+    border-radius: 5px;
+}
+
+.starIcon a, .chevronIcon a,.starIcon2 a{
+    text-decoration: none;
+    color:lightgray;
+}
+.fa fa-star{
+    color:yellow;
+}
+
+.pdfSection{
+    width:100%;
+    height: 400%;
+   min-height: 100%;
+    
+}
+html,body {
+    height: 100%;
+   min-height: 100%;
+-webkit-overflow-scrolling: touch;
+
+}
+
+/*.panel{
+    margin: 14px 2px 14px 2px;
+}*/
+
+.panel-heading{
+    background-color: #f5f5f5;
+}
+
+.panel-title{
+   /* margin-top: -15px;*/
+    float:left;
+    
+}
+
+.form-group {
+    margin-bottom: 6px;
+}
+
+.detailHeader{
+    padding: 6px 6px 6px 6px;
+}
+.rightTable{
+    font-size:16px;
+}
+.detailLogo{
+    font-size:18px;
+}
+.starEmpty{
+    
+}
+.starFull{
+    
+}

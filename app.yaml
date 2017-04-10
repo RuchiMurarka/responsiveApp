@@ -1,0 +1,30 @@
+application: helloworld-09
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /css
+  static_dir: css/
+  
+
+- url: /js
+  static_dir: js/
+  
+- url: /image
+  static_dir: image/
+  
+- url: /HW8\.html
+  script: HW8.html
+  
+
+- url: /index\.php
+  script: index.php
+  
+- url: /*.*
+  script: HW8.html
